@@ -13,4 +13,4 @@ The project focused on four evaluation goals:
 
 The full report is available here:
 
-[Procedural Game Balancing Thesis Report](procedural-game-balancing-thesis-report.docx)
+[Procedural Game Balancing Thesis Report](procedural-game-balancing-thesis-report.pdf)
