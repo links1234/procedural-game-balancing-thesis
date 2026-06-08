@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Experiment outputs
+results/
+data/
+checkpoints/
+*.csv
+*.parquet
+*.pkl
+
+# Local/editor files
+.DS_Store
+.vscode/
+*.log
+*:Zone.Identifier
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc

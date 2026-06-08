@@ -1,0 +1,21 @@
+experiment:
+  name: example_experiment
+  type: baseline
+  seed: 42
+
+simulation:
+  backend: super_auto_pets
+  episodes: 100
+  max_turns: 10
+
+evaluation:
+  metrics:
+    - fairness
+    - diversity
+    - stability
+    - safety
+
+output:
+  directory: results/example_experiment
+  cache: true
+  checkpoint: true
