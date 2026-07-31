@@ -1,0 +1,73 @@
+project_name: sap-thesis-project
+experiment_name: final_pilot
+seed: 20260330
+output_dir: outputs
+mode: pilot
+
+baselines:
+  enabled: true
+  config_path: configs/baselines/phase2_baselines.yaml
+  config:
+    experiment_name: final_pilot_baselines
+    seed: 20260330
+    pack: StandardPack
+    max_turn: 20
+    episodes_per_baseline: 6
+    max_steps_per_episode: 128
+    evaluation_policy: heuristic
+
+generator:
+  enabled: true
+  config_path: configs/generator/phase4_generator.yaml
+  config:
+    experiment_name: final_pilot_generator
+    seed: 20260330
+    total_iterations: 30
+    checkpoint_every: 10
+    random_baseline_samples: 6
+    evaluation_policies:
+      - random
+      - heuristic
+      - scripted_value
+    evaluation_seeds:
+      - 20260330
+      - 20260331
+    evaluation_max_steps_per_episode: 128
+    max_turn: 20
+
+iterative_balancing:
+  enabled: true
+  config_path: configs/experiments/phase5_iterative_balancing.yaml
+  config:
+    experiment_name: final_pilot_iterative
+    seed: 20260330
+    artifact_budget: 2
+    search_iterations_per_step: 12
+    checkpoint_every: 6
+    random_baseline_samples: 4
+    evaluation_policies:
+      - random
+      - heuristic
+      - scripted_value
+    evaluation_seeds:
+      - 20260330
+      - 20260331
+    evaluation_max_steps_per_episode: 128
+    max_turn: 20
+
+transfer:
+  enabled: true
+  config_path: configs/experiments/phase5_transfer.yaml
+  config:
+    output_prefix: final_pilot_transfer
+    seeds:
+      - 20260330
+    packs:
+      - StandardPack
+      - ExpansionPack1
+    policies:
+      - random
+      - heuristic
+      - scripted_value
+    episodes_per_baseline: 4
+    max_steps_per_episode: 128

@@ -1,0 +1,2 @@
+candidate,final_objective,fairness_score,diversity_retention,mean_outcome_delta,safety_pass,stability_score,generator_best_safe_final_objective,generator_best_safe_delta_vs_heuristic_final_objective
+heuristic_generation_baseline,0.5293968134136082,0.34792284866468837,0.9646367848785717,-0.004166666666666763,True,0.6385787361954045,0.5427324871834691,0.01333567376986089

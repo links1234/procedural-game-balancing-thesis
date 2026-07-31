@@ -1,0 +1,68 @@
+project_name: sap-thesis-project
+experiment_name: smoke_matrix
+seed: 20260403
+output_dir: outputs
+mode: smoke
+
+baselines:
+  enabled: true
+  config_path: configs/baselines/phase2_baselines.yaml
+  config:
+    experiment_name: smoke_matrix_baselines
+    seed: 20260403
+    pack: StandardPack
+    max_turn: 12
+    episodes_per_baseline: 2
+    max_steps_per_episode: 96
+    evaluation_policy: heuristic
+
+generator:
+  enabled: true
+  config_path: configs/generator/phase4_generator.yaml
+  config:
+    experiment_name: smoke_matrix_generator
+    seed: 20260403
+    total_iterations: 12
+    checkpoint_every: 6
+    random_baseline_samples: 2
+    evaluation_policies:
+      - random
+      - heuristic
+    evaluation_seeds:
+      - 20260403
+    evaluation_max_steps_per_episode: 96
+    max_turn: 12
+
+iterative_balancing:
+  enabled: true
+  config_path: configs/experiments/phase5_iterative_balancing.yaml
+  config:
+    experiment_name: smoke_matrix_iterative
+    seed: 20260403
+    artifact_budget: 2
+    search_iterations_per_step: 6
+    checkpoint_every: 3
+    random_baseline_samples: 2
+    evaluation_policies:
+      - random
+      - heuristic
+    evaluation_seeds:
+      - 20260403
+    evaluation_max_steps_per_episode: 96
+    max_turn: 12
+
+transfer:
+  enabled: true
+  config_path: configs/experiments/phase5_transfer.yaml
+  config:
+    output_prefix: smoke_matrix_transfer
+    seeds:
+      - 20260403
+    packs:
+      - StandardPack
+      - ExpansionPack1
+    policies:
+      - random
+      - heuristic
+    episodes_per_baseline: 2
+    max_steps_per_episode: 96

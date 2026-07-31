@@ -1,0 +1,22 @@
+project_name: sap-thesis-project
+experiment_name: phase4_generator
+seed: 20260301
+output_dir: outputs
+
+total_iterations: 300
+checkpoint_every: 25
+strict_pet_only: true
+random_baseline_samples: 12
+proxy_guidance_weight: 0.10
+require_injection_support: true
+
+evaluation_packs:
+  - StandardPack
+
+evaluation_policies:
+  - heuristic
+
+evaluation_seed_count: 3
+evaluation_max_steps_per_episode: 128
+evaluation_strict_invalid_actions: true
+max_turn: 25

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700">
+<rect x="0" y="0" width="1100" height="700" rx="0" fill="#f3efe6" />
+<text x="54" y="58" font-family="Georgia, Times New Roman, serif" font-size="28" font-weight="bold" fill="#18212b" text-anchor="start">Figure 1. Final-Matrix Comparison of Safe Thesis-Facing Conditions</text>
+<text x="54" y="88" font-family="Georgia, Times New Roman, serif" font-size="15" font-weight="normal" fill="#4f5965" text-anchor="start">Bars compare the four conditions discussed in Sections 5.1-5.2 using the final objective and fairness metrics.</text>
+<text x="54" y="112" font-family="Georgia, Times New Roman, serif" font-size="15" font-weight="normal" fill="#4f5965" text-anchor="start">All plotted conditions passed the thesis safety gate. Source: archived episode snapshot and verified result table.</text>
+<rect x="48" y="150" width="490" height="470" rx="14" fill="#faf7f0" stroke="#d1cab8" stroke-width="1" />
+<text x="72" y="184" font-family="Georgia, Times New Roman, serif" font-size="22" font-weight="bold" fill="#1f2933" text-anchor="start">Final Objective</text>
+<line x1="110" y1="546.0" x2="514" y2="546.0" stroke="#d9d5ca" stroke-width="1" stroke-dasharray="4 6" />
+<text x="98" y="551.0" font-family="Georgia, Times New Roman, serif" font-size="12" font-weight="normal" fill="#5b6470" text-anchor="end">0.0</text>
+<line x1="110" y1="434.0" x2="514" y2="434.0" stroke="#d9d5ca" stroke-width="1" stroke-dasharray="4 6" />
+<text x="98" y="439.0" font-family="Georgia, Times New Roman, serif" font-size="12" font-weight="normal" fill="#5b6470" text-anchor="end">0.2</text>
+<line x1="110" y1="322.0" x2="514" y2="322.0" stroke="#d9d5ca" stroke-width="1" stroke-dasharray="4 6" />
+<text x="98" y="327.0" font-family="Georgia, Times New Roman, serif" font-size="12" font-weight="normal" fill="#5b6470" text-anchor="end">0.4</text>
+<line x1="110" y1="210.0" x2="514" y2="210.0" stroke="#d9d5ca" stroke-width="1" stroke-dasharray="4 6" />
+<text x="98" y="215.0" font-family="Georgia, Times New Roman, serif" font-size="12" font-weight="normal" fill="#5b6470" text-anchor="end">0.6</text>
+<line x1="110" y1="210" x2="110" y2="546" stroke="#5b6470" stroke-width="2" />
+<line x1="110" y1="546" x2="514" y2="546" stroke="#5b6470" stroke-width="2" />
+<rect x="132.5" y="249.53778448837937" width="56" height="296.4622155116206" rx="8" fill="#7d8ca3" />
+<text x="160.5" y="239.53778448837937" font-family="Georgia, Times New Roman, serif" font-size="13" font-weight="bold" fill="#1f2933" text-anchor="middle">0.5294</text>
+<text x="160.5" y="570" font-family="Georgia, Times New Roman, serif" font-size="13" font-weight="normal" fill="#1f2933" text-anchor="middle">Heuristic</text>
+<rect x="233.5" y="242.06980717725725" width="56" height="303.93019282274275" rx="8" fill="#c96b3b" />
+<text x="261.5" y="232.06980717725725" font-family="Georgia, Times New Roman, serif" font-size="13" font-weight="bold" fill="#1f2933" text-anchor="middle">0.5427</text>
+<text x="261.5" y="570" font-family="Georgia, Times New Roman, serif" font-size="13" font-weight="normal" fill="#1f2933" text-anchor="middle">Generator</text>
+<rect x="334.5" y="233.11494308351342" width="56" height="312.8850569164866" rx="8" fill="#3d8f73" />
+<text x="362.5" y="223.11494308351342" font-family="Georgia, Times New Roman, serif" font-size="13" font-weight="bold" fill="#1f2933" text-anchor="middle">0.5587</text>
+<text x="362.5" y="570" font-family="Georgia, Times New Roman, serif" font-size="13" font-weight="normal" fill="#1f2933" text-anchor="middle">One-shot</text>
+<rect x="435.5" y="236.2632385229802" width="56" height="309.7367614770198" rx="8" fill="#5b7c99" />
+<text x="463.5" y="226.2632385229802" font-family="Georgia, Times New Roman, serif" font-size="13" font-weight="bold" fill="#1f2933" text-anchor="middle">0.5531</text>
+<text x="463.5" y="570" font-family="Georgia, Times New Roman, serif" font-size="13" font-weight="normal" fill="#1f2933" text-anchor="middle">Iterative</text>
+<rect x="562" y="150" width="490" height="470" rx="14" fill="#faf7f0" stroke="#d1cab8" stroke-width="1" />
+<text x="586" y="184" font-family="Georgia, Times New Roman, serif" font-size="22" font-weight="bold" fill="#1f2933" text-anchor="start">Fairness Score</text>
+<line x1="624" y1="546.0" x2="1028" y2="546.0" stroke="#d9d5ca" stroke-width="1" stroke-dasharray="4 6" />
+<text x="612" y="551.0" font-family="Georgia, Times New Roman, serif" font-size="12" font-weight="normal" fill="#5b6470" text-anchor="end">0.0</text>
+<line x1="624" y1="434.0" x2="1028" y2="434.0" stroke="#d9d5ca" stroke-width="1" stroke-dasharray="4 6" />
+<text x="612" y="439.0" font-family="Georgia, Times New Roman, serif" font-size="12" font-weight="normal" fill="#5b6470" text-anchor="end">0.2</text>
+<line x1="624" y1="322.0" x2="1028" y2="322.0" stroke="#d9d5ca" stroke-width="1" stroke-dasharray="4 6" />
+<text x="612" y="327.0" font-family="Georgia, Times New Roman, serif" font-size="12" font-weight="normal" fill="#5b6470" text-anchor="end">0.4</text>
+<line x1="624" y1="210.0" x2="1028" y2="210.0" stroke="#d9d5ca" stroke-width="1" stroke-dasharray="4 6" />
+<text x="612" y="215.0" font-family="Georgia, Times New Roman, serif" font-size="12" font-weight="normal" fill="#5b6470" text-anchor="end">0.6</text>
+<line x1="624" y1="210" x2="624" y2="546" stroke="#5b6470" stroke-width="2" />
+<line x1="624" y1="546" x2="1028" y2="546" stroke="#5b6470" stroke-width="2" />
+<rect x="646.5" y="351.1632047477745" width="56" height="194.8367952522255" rx="8" fill="#7d8ca3" />
+<text x="674.5" y="341.1632047477745" font-family="Georgia, Times New Roman, serif" font-size="13" font-weight="bold" fill="#1f2933" text-anchor="middle">0.3479</text>
+<text x="674.5" y="570" font-family="Georgia, Times New Roman, serif" font-size="13" font-weight="normal" fill="#1f2933" text-anchor="middle">Heuristic</text>
+<rect x="747.5" y="345.4893678965344" width="56" height="200.5106321034656" rx="8" fill="#c96b3b" />
+<text x="775.5" y="335.4893678965344" font-family="Georgia, Times New Roman, serif" font-size="13" font-weight="bold" fill="#1f2933" text-anchor="middle">0.3581</text>
+<text x="775.5" y="570" font-family="Georgia, Times New Roman, serif" font-size="13" font-weight="normal" fill="#1f2933" text-anchor="middle">Generator</text>
+<rect x="848.5" y="312.597637310341" width="56" height="233.40236268965901" rx="8" fill="#3d8f73" />
+<text x="876.5" y="302.597637310341" font-family="Georgia, Times New Roman, serif" font-size="13" font-weight="bold" fill="#1f2933" text-anchor="middle">0.4168</text>
+<text x="876.5" y="570" font-family="Georgia, Times New Roman, serif" font-size="13" font-weight="normal" fill="#1f2933" text-anchor="middle">One-shot</text>
+<rect x="949.5" y="352.03560830860533" width="56" height="193.9643916913947" rx="8" fill="#5b7c99" />
+<text x="977.5" y="342.03560830860533" font-family="Georgia, Times New Roman, serif" font-size="13" font-weight="bold" fill="#1f2933" text-anchor="middle">0.3464</text>
+<text x="977.5" y="570" font-family="Georgia, Times New Roman, serif" font-size="13" font-weight="normal" fill="#1f2933" text-anchor="middle">Iterative</text>
+<text x="54" y="654" font-family="Georgia, Times New Roman, serif" font-size="13" font-weight="normal" fill="#4f5965" text-anchor="start">Condition values used in this figure are stored in results/final_condition_comparison.csv.</text>
+</svg>

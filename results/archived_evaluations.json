@@ -1,0 +1,2207 @@
+{
+  "evaluations": {
+    "generator_best_safe": {
+      "artifact": {
+        "artifact_type": "pet",
+        "base_attack": 7,
+        "base_health": 7,
+        "cap_or_cooldown": 3,
+        "cost": 2,
+        "effect_type": "DamageEnemy",
+        "effect_value": 4,
+        "source": "phase4_random_search",
+        "tags": [
+          "risk",
+          "tempo"
+        ],
+        "target_type": "RandomEnemy",
+        "tier": 6,
+        "trigger_type": "Faint"
+      },
+      "artifact_id": "fe584359912e03fa",
+      "rows": [
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260401,
+          "final_lives": 0,
+          "final_team_signature": [
+            "pet-spider"
+          ],
+          "final_wins": 6,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260402,
+          "final_lives": 0,
+          "final_team_signature": [],
+          "final_wins": 2,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260403,
+          "final_lives": 0,
+          "final_team_signature": [
+            "pet-ant",
+            "pet-duck"
+          ],
+          "final_wins": 1,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260404,
+          "final_lives": 0,
+          "final_team_signature": [
+            "pet-elephant"
+          ],
+          "final_wins": 1,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260405,
+          "final_lives": 0,
+          "final_team_signature": [
+            "pet-worm"
+          ],
+          "final_wins": 3,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260406,
+          "final_lives": 0,
+          "final_team_signature": [
+            "pet-hedgehog"
+          ],
+          "final_wins": 0,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260407,
+          "final_lives": 0,
+          "final_team_signature": [
+            "pet-generated-fe584359912e03fa"
+          ],
+          "final_wins": 7,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260408,
+          "final_lives": 0,
+          "final_team_signature": [],
+          "final_wins": 1,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260401,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-fish",
+            "pet-fish",
+            "pet-generated-fe584359912e03fa",
+            "pet-generated-fe584359912e03fa",
+            "pet-otter"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260402,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-cricket",
+            "pet-duck",
+            "pet-generated-fe584359912e03fa",
+            "pet-generated-fe584359912e03fa",
+            "pet-otter"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260403,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-beaver",
+            "pet-fish",
+            "pet-generated-fe584359912e03fa",
+            "pet-generated-fe584359912e03fa",
+            "pet-horse"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260404,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-beaver",
+            "pet-fish",
+            "pet-generated-fe584359912e03fa",
+            "pet-generated-fe584359912e03fa",
+            "pet-mosquito"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260405,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-duck",
+            "pet-fish",
+            "pet-generated-fe584359912e03fa",
+            "pet-generated-fe584359912e03fa",
+            "pet-otter"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260406,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-ant",
+            "pet-beaver",
+            "pet-generated-fe584359912e03fa",
+            "pet-generated-fe584359912e03fa",
+            "pet-pig"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260407,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-beaver",
+            "pet-beaver",
+            "pet-generated-fe584359912e03fa",
+            "pet-generated-fe584359912e03fa",
+            "pet-horse"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260408,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-cricket",
+            "pet-generated-fe584359912e03fa",
+            "pet-generated-fe584359912e03fa",
+            "pet-horse",
+            "pet-pig"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260401,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-cricket",
+            "pet-fish",
+            "pet-generated-fe584359912e03fa",
+            "pet-mosquito",
+            "pet-otter"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260402,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-crab",
+            "pet-duck",
+            "pet-fish",
+            "pet-generated-fe584359912e03fa",
+            "pet-otter"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260403,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-fish",
+            "pet-generated-fe584359912e03fa",
+            "pet-horse",
+            "pet-otter",
+            "pet-shrimp"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260404,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-beaver",
+            "pet-fish",
+            "pet-generated-fe584359912e03fa",
+            "pet-hedgehog",
+            "pet-mosquito"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260405,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-duck",
+            "pet-fish",
+            "pet-generated-fe584359912e03fa",
+            "pet-otter",
+            "pet-rat"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260406,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-ant",
+            "pet-beaver",
+            "pet-generated-fe584359912e03fa",
+            "pet-mosquito",
+            "pet-peacock"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260407,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-beaver",
+            "pet-cricket",
+            "pet-fish",
+            "pet-generated-fe584359912e03fa",
+            "pet-mosquito"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260408,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-cricket",
+            "pet-elephant",
+            "pet-generated-fe584359912e03fa",
+            "pet-horse"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        }
+      ]
+    },
+    "heuristic_baseline": {
+      "artifact": {
+        "artifact_type": "pet",
+        "base_attack": 4,
+        "base_health": 5,
+        "cap_or_cooldown": 1,
+        "cost": 3,
+        "effect_type": "BuffFriend",
+        "effect_value": 2,
+        "source": "heuristic_generation_baseline",
+        "tags": [
+          "tempo",
+          "scaling"
+        ],
+        "target_type": "RandomFriend",
+        "tier": 3,
+        "trigger_type": "Faint"
+      },
+      "artifact_id": "930db8d41b9a229d",
+      "rows": [
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260401,
+          "final_lives": 0,
+          "final_team_signature": [
+            "pet-dodo"
+          ],
+          "final_wins": 0,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260402,
+          "final_lives": 0,
+          "final_team_signature": [],
+          "final_wins": 1,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260403,
+          "final_lives": 0,
+          "final_team_signature": [],
+          "final_wins": 2,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260404,
+          "final_lives": 0,
+          "final_team_signature": [
+            "pet-horse"
+          ],
+          "final_wins": 0,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260405,
+          "final_lives": 0,
+          "final_team_signature": [
+            "pet-worm"
+          ],
+          "final_wins": 2,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260406,
+          "final_lives": 0,
+          "final_team_signature": [],
+          "final_wins": 0,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260407,
+          "final_lives": 0,
+          "final_team_signature": [],
+          "final_wins": 5,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260408,
+          "final_lives": 0,
+          "final_team_signature": [],
+          "final_wins": 1,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260401,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-fish",
+            "pet-fish",
+            "pet-generated-930db8d41b9a229d",
+            "pet-generated-930db8d41b9a229d",
+            "pet-otter"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260402,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-duck",
+            "pet-generated-930db8d41b9a229d",
+            "pet-generated-930db8d41b9a229d",
+            "pet-otter",
+            "pet-otter"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260403,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-fish",
+            "pet-fish",
+            "pet-generated-930db8d41b9a229d",
+            "pet-generated-930db8d41b9a229d",
+            "pet-horse"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260404,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-beaver",
+            "pet-duck",
+            "pet-fish",
+            "pet-generated-930db8d41b9a229d",
+            "pet-generated-930db8d41b9a229d"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260405,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-duck",
+            "pet-fish",
+            "pet-generated-930db8d41b9a229d",
+            "pet-generated-930db8d41b9a229d",
+            "pet-pig"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260406,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-ant",
+            "pet-beaver",
+            "pet-generated-930db8d41b9a229d",
+            "pet-generated-930db8d41b9a229d",
+            "pet-pig"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260407,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-beaver",
+            "pet-beaver",
+            "pet-generated-930db8d41b9a229d",
+            "pet-generated-930db8d41b9a229d",
+            "pet-horse"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260408,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-cricket",
+            "pet-generated-930db8d41b9a229d",
+            "pet-generated-930db8d41b9a229d",
+            "pet-horse",
+            "pet-horse"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260401,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-cricket",
+            "pet-fish",
+            "pet-generated-930db8d41b9a229d",
+            "pet-mosquito",
+            "pet-otter"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260402,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-crab",
+            "pet-duck",
+            "pet-fish",
+            "pet-generated-930db8d41b9a229d",
+            "pet-otter"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260403,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-fish",
+            "pet-generated-930db8d41b9a229d",
+            "pet-horse",
+            "pet-otter",
+            "pet-shrimp"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260404,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-beaver",
+            "pet-fish",
+            "pet-generated-930db8d41b9a229d",
+            "pet-hedgehog",
+            "pet-mosquito"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260405,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-duck",
+            "pet-fish",
+            "pet-generated-930db8d41b9a229d",
+            "pet-otter",
+            "pet-rat"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260406,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-ant",
+            "pet-beaver",
+            "pet-generated-930db8d41b9a229d",
+            "pet-mosquito",
+            "pet-peacock"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260407,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-beaver",
+            "pet-cricket",
+            "pet-fish",
+            "pet-generated-930db8d41b9a229d",
+            "pet-mosquito"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260408,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-cricket",
+            "pet-elephant",
+            "pet-generated-930db8d41b9a229d",
+            "pet-horse"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        }
+      ]
+    },
+    "iterative_step_1": {
+      "artifact": {
+        "artifact_type": "pet",
+        "base_attack": 3,
+        "base_health": 6,
+        "cap_or_cooldown": 1,
+        "cost": 3,
+        "effect_type": "GoldGain",
+        "effect_value": 2,
+        "source": "phase4_random_search",
+        "tags": [
+          "tempo",
+          "economy"
+        ],
+        "target_type": "None",
+        "tier": 3,
+        "trigger_type": "BuyFriend"
+      },
+      "artifact_id": "22854c8a755cfb41",
+      "rows": [
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260401,
+          "final_lives": 0,
+          "final_team_signature": [
+            "pet-cat"
+          ],
+          "final_wins": 8,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260402,
+          "final_lives": 0,
+          "final_team_signature": [],
+          "final_wins": 1,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260403,
+          "final_lives": 0,
+          "final_team_signature": [],
+          "final_wins": 2,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260404,
+          "final_lives": 0,
+          "final_team_signature": [
+            "pet-fish",
+            "pet-giraffe",
+            "pet-pig"
+          ],
+          "final_wins": 1,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260405,
+          "final_lives": 0,
+          "final_team_signature": [
+            "pet-worm"
+          ],
+          "final_wins": 2,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260406,
+          "final_lives": 0,
+          "final_team_signature": [],
+          "final_wins": 0,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260407,
+          "final_lives": 0,
+          "final_team_signature": [
+            "pet-crab"
+          ],
+          "final_wins": 0,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260408,
+          "final_lives": 0,
+          "final_team_signature": [],
+          "final_wins": 1,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260401,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-fish",
+            "pet-generated-22854c8a755cfb41",
+            "pet-generated-22854c8a755cfb41",
+            "pet-otter",
+            "pet-otter"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260402,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-duck",
+            "pet-fish",
+            "pet-generated-22854c8a755cfb41",
+            "pet-generated-22854c8a755cfb41",
+            "pet-otter"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260403,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-fish",
+            "pet-generated-22854c8a755cfb41",
+            "pet-generated-22854c8a755cfb41",
+            "pet-horse",
+            "pet-otter"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260404,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-ant",
+            "pet-beaver",
+            "pet-fish",
+            "pet-generated-22854c8a755cfb41",
+            "pet-generated-22854c8a755cfb41"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260405,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-cricket",
+            "pet-duck",
+            "pet-fish",
+            "pet-generated-22854c8a755cfb41",
+            "pet-generated-22854c8a755cfb41"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260406,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-ant",
+            "pet-beaver",
+            "pet-generated-22854c8a755cfb41",
+            "pet-generated-22854c8a755cfb41",
+            "pet-mosquito"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260407,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-beaver",
+            "pet-beaver",
+            "pet-generated-22854c8a755cfb41",
+            "pet-generated-22854c8a755cfb41",
+            "pet-mosquito"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260408,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-cricket",
+            "pet-generated-22854c8a755cfb41",
+            "pet-generated-22854c8a755cfb41",
+            "pet-horse",
+            "pet-horse"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260401,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-cricket",
+            "pet-fish",
+            "pet-generated-22854c8a755cfb41",
+            "pet-otter",
+            "pet-pig"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260402,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-duck",
+            "pet-fish",
+            "pet-generated-22854c8a755cfb41",
+            "pet-otter"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260403,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-duck",
+            "pet-fish",
+            "pet-generated-22854c8a755cfb41",
+            "pet-horse",
+            "pet-otter"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260404,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-beaver",
+            "pet-duck",
+            "pet-fish",
+            "pet-generated-22854c8a755cfb41",
+            "pet-mosquito"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260405,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-duck",
+            "pet-fish",
+            "pet-generated-22854c8a755cfb41",
+            "pet-otter",
+            "pet-pig"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260406,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-ant",
+            "pet-beaver",
+            "pet-generated-22854c8a755cfb41",
+            "pet-mosquito",
+            "pet-pig"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260407,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-beaver",
+            "pet-duck",
+            "pet-elephant",
+            "pet-fish",
+            "pet-generated-22854c8a755cfb41"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260408,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-cricket",
+            "pet-dog",
+            "pet-flamingo",
+            "pet-generated-22854c8a755cfb41",
+            "pet-horse"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        }
+      ]
+    },
+    "one_shot_selected": {
+      "artifact": {
+        "artifact_type": "pet",
+        "base_attack": 3,
+        "base_health": 4,
+        "cap_or_cooldown": 3,
+        "cost": 3,
+        "effect_type": "GoldGain",
+        "effect_value": 5,
+        "source": "phase4_iterative_search",
+        "tags": [
+          "utility"
+        ],
+        "target_type": "None",
+        "tier": 4,
+        "trigger_type": "BuyFriend"
+      },
+      "artifact_id": "42026b5b31dd7d94",
+      "rows": [
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260401,
+          "final_lives": 0,
+          "final_team_signature": [],
+          "final_wins": 8,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260402,
+          "final_lives": 0,
+          "final_team_signature": [],
+          "final_wins": 1,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260403,
+          "final_lives": 0,
+          "final_team_signature": [],
+          "final_wins": 2,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260404,
+          "final_lives": 0,
+          "final_team_signature": [],
+          "final_wins": 7,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260405,
+          "final_lives": 0,
+          "final_team_signature": [
+            "pet-worm"
+          ],
+          "final_wins": 2,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260406,
+          "final_lives": 0,
+          "final_team_signature": [],
+          "final_wins": 0,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260407,
+          "final_lives": 0,
+          "final_team_signature": [
+            "pet-ant"
+          ],
+          "final_wins": 2,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260408,
+          "final_lives": 0,
+          "final_team_signature": [],
+          "final_wins": 1,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260401,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-cricket",
+            "pet-fish",
+            "pet-generated-42026b5b31dd7d94",
+            "pet-generated-42026b5b31dd7d94",
+            "pet-otter"
+          ],
+          "final_wins": 9,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260402,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-duck",
+            "pet-duck",
+            "pet-generated-42026b5b31dd7d94",
+            "pet-generated-42026b5b31dd7d94",
+            "pet-otter"
+          ],
+          "final_wins": 9,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260403,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-ant",
+            "pet-fish",
+            "pet-generated-42026b5b31dd7d94",
+            "pet-generated-42026b5b31dd7d94",
+            "pet-horse"
+          ],
+          "final_wins": 9,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260404,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-beaver",
+            "pet-fish",
+            "pet-generated-42026b5b31dd7d94",
+            "pet-generated-42026b5b31dd7d94",
+            "pet-mosquito"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260405,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-duck",
+            "pet-fish",
+            "pet-generated-42026b5b31dd7d94",
+            "pet-generated-42026b5b31dd7d94",
+            "pet-otter"
+          ],
+          "final_wins": 9,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260406,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-ant",
+            "pet-beaver",
+            "pet-cricket",
+            "pet-generated-42026b5b31dd7d94",
+            "pet-generated-42026b5b31dd7d94"
+          ],
+          "final_wins": 9,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260407,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-beaver",
+            "pet-beaver",
+            "pet-beaver",
+            "pet-generated-42026b5b31dd7d94",
+            "pet-generated-42026b5b31dd7d94"
+          ],
+          "final_wins": 9,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 2,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260408,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-cricket",
+            "pet-generated-42026b5b31dd7d94",
+            "pet-generated-42026b5b31dd7d94",
+            "pet-horse",
+            "pet-horse"
+          ],
+          "final_wins": 9,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260401,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-crab",
+            "pet-cricket",
+            "pet-fish",
+            "pet-generated-42026b5b31dd7d94",
+            "pet-otter"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260402,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-duck",
+            "pet-fish",
+            "pet-generated-42026b5b31dd7d94",
+            "pet-otter",
+            "pet-rat"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260403,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-crab",
+            "pet-fish",
+            "pet-generated-42026b5b31dd7d94",
+            "pet-horse",
+            "pet-otter"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260404,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-beaver",
+            "pet-duck",
+            "pet-fish",
+            "pet-generated-42026b5b31dd7d94",
+            "pet-mosquito"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260405,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-duck",
+            "pet-fish",
+            "pet-generated-42026b5b31dd7d94",
+            "pet-otter",
+            "pet-pig"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260406,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-ant",
+            "pet-beaver",
+            "pet-generated-42026b5b31dd7d94",
+            "pet-mosquito",
+            "pet-pig"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260407,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-beaver",
+            "pet-dodo",
+            "pet-generated-42026b5b31dd7d94",
+            "pet-horse",
+            "pet-spider"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 1,
+          "artifact_in_final_team": true,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260408,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-cricket",
+            "pet-dog",
+            "pet-flamingo",
+            "pet-generated-42026b5b31dd7d94",
+            "pet-horse"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        }
+      ]
+    },
+    "reference": {
+      "artifact": null,
+      "artifact_id": null,
+      "rows": [
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260401,
+          "final_lives": 0,
+          "final_team_signature": [],
+          "final_wins": 5,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260402,
+          "final_lives": 0,
+          "final_team_signature": [
+            "pet-badger"
+          ],
+          "final_wins": 1,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": true,
+          "backend_error_message": "Exception: Cannot freeze an empty shop slot",
+          "comparison_seed": 20260403,
+          "final_lives": 3,
+          "final_team_signature": [
+            "pet-cricket",
+            "pet-rabbit",
+            "pet-worm"
+          ],
+          "final_wins": 5,
+          "invalid_action_count": 1,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260404,
+          "final_lives": 0,
+          "final_team_signature": [
+            "pet-dodo"
+          ],
+          "final_wins": 0,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260405,
+          "final_lives": 0,
+          "final_team_signature": [],
+          "final_wins": 2,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260406,
+          "final_lives": 0,
+          "final_team_signature": [
+            "pet-pig"
+          ],
+          "final_wins": 0,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260407,
+          "final_lives": 0,
+          "final_team_signature": [
+            "pet-beaver"
+          ],
+          "final_wins": 0,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260408,
+          "final_lives": 0,
+          "final_team_signature": [],
+          "final_wins": 2,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "random"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260401,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-fish",
+            "pet-fish",
+            "pet-fish",
+            "pet-otter",
+            "pet-otter"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260402,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-duck",
+            "pet-otter",
+            "pet-otter",
+            "pet-otter",
+            "pet-pig"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260403,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-cricket",
+            "pet-fish",
+            "pet-fish",
+            "pet-fish",
+            "pet-horse"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260404,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-beaver",
+            "pet-duck",
+            "pet-duck",
+            "pet-duck",
+            "pet-fish"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260405,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-beaver",
+            "pet-duck",
+            "pet-fish",
+            "pet-pig",
+            "pet-pig"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260406,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-ant",
+            "pet-beaver",
+            "pet-beaver",
+            "pet-pig",
+            "pet-pig"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260407,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-beaver",
+            "pet-beaver",
+            "pet-duck",
+            "pet-horse",
+            "pet-horse"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260408,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-cricket",
+            "pet-fish",
+            "pet-horse",
+            "pet-horse",
+            "pet-horse"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "heuristic"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260401,
+          "final_lives": 10,
+          "final_team_signature": [
+            "pet-cricket",
+            "pet-fish",
+            "pet-mosquito",
+            "pet-otter",
+            "pet-pig"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260402,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-duck",
+            "pet-fish",
+            "pet-mosquito",
+            "pet-otter",
+            "pet-pig"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260403,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-cricket",
+            "pet-elephant",
+            "pet-fish",
+            "pet-horse",
+            "pet-otter"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260404,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-beaver",
+            "pet-duck",
+            "pet-fish",
+            "pet-mosquito",
+            "pet-pig"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260405,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-beaver",
+            "pet-crab",
+            "pet-duck",
+            "pet-fish",
+            "pet-otter"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260406,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-ant",
+            "pet-beaver",
+            "pet-duck",
+            "pet-mosquito",
+            "pet-peacock"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260407,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-beaver",
+            "pet-cricket",
+            "pet-duck",
+            "pet-fish",
+            "pet-mosquito"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        },
+        {
+          "artifact_copies_final": 0,
+          "artifact_in_final_team": false,
+          "backend_error": false,
+          "backend_error_message": "",
+          "comparison_seed": 20260408,
+          "final_lives": 9,
+          "final_team_signature": [
+            "pet-cricket",
+            "pet-elephant",
+            "pet-fish",
+            "pet-horse",
+            "pet-spider"
+          ],
+          "final_wins": 10,
+          "invalid_action_count": 0,
+          "pack": "StandardPack",
+          "policy": "scripted_value"
+        }
+      ]
+    }
+  },
+  "source": {
+    "git_hash": "6f45a2e",
+    "matrix_run_id": "final_matrix_20260330T060255Z_679b03dd",
+    "protocol": {
+      "comparison_seeds": [
+        20260401,
+        20260402,
+        20260403,
+        20260404,
+        20260405,
+        20260406,
+        20260407,
+        20260408
+      ],
+      "max_steps_per_episode": 160,
+      "max_turn": 25,
+      "packs": [
+        "StandardPack"
+      ],
+      "policies": [
+        "random",
+        "heuristic",
+        "scripted_value"
+      ],
+      "strict_invalid_actions": true
+    },
+    "timestamp_utc": "2026-03-30T06:02:55.157173+00:00"
+  }
+}

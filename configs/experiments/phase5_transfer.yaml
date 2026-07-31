@@ -1,0 +1,17 @@
+seeds:
+  - 20260301
+  - 20260302
+  - 20260303
+
+packs:
+  - StandardPack
+  - ExpansionPack1
+
+policies:
+  - random
+  - heuristic
+  - scripted_value
+
+episodes_per_baseline: 12
+max_steps_per_episode: 256
+output_prefix: phase5_transfer

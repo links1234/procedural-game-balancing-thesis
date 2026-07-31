@@ -1,0 +1,89 @@
+project_name: sap-thesis-project
+experiment_name: final_matrix
+seed: 20260401
+output_dir: outputs
+mode: final
+
+baselines:
+  enabled: true
+  config_path: configs/baselines/phase2_baselines.yaml
+  config:
+    experiment_name: final_matrix_baselines
+    seed: 20260401
+    pack: StandardPack
+    max_turn: 25
+    episodes_per_baseline: 18
+    max_steps_per_episode: 160
+    evaluation_policy: heuristic
+
+generator:
+  enabled: true
+  config_path: configs/generator/phase4_generator.yaml
+  config:
+    experiment_name: final_matrix_generator
+    seed: 20260401
+    total_iterations: 180
+    checkpoint_every: 20
+    random_baseline_samples: 20
+    evaluation_policies:
+      - random
+      - heuristic
+      - scripted_value
+    evaluation_seeds:
+      - 20260401
+      - 20260402
+      - 20260403
+      - 20260404
+      - 20260405
+      - 20260406
+      - 20260407
+      - 20260408
+    evaluation_max_steps_per_episode: 160
+    max_turn: 25
+
+iterative_balancing:
+  enabled: true
+  config_path: configs/experiments/phase5_iterative_balancing.yaml
+  config:
+    experiment_name: final_matrix_iterative
+    seed: 20260401
+    artifact_budget: 3
+    search_iterations_per_step: 60
+    checkpoint_every: 10
+    random_baseline_samples: 10
+    evaluation_policies:
+      - random
+      - heuristic
+      - scripted_value
+    evaluation_seeds:
+      - 20260401
+      - 20260402
+      - 20260403
+      - 20260404
+      - 20260405
+      - 20260406
+      - 20260407
+      - 20260408
+    evaluation_max_steps_per_episode: 160
+    max_turn: 25
+
+transfer:
+  enabled: true
+  config_path: configs/experiments/phase5_transfer.yaml
+  config:
+    output_prefix: final_matrix_transfer
+    seeds:
+      - 20260401
+      - 20260402
+      - 20260403
+      - 20260404
+      - 20260405
+    packs:
+      - StandardPack
+      - ExpansionPack1
+    policies:
+      - random
+      - heuristic
+      - scripted_value
+    episodes_per_baseline: 12
+    max_steps_per_episode: 160

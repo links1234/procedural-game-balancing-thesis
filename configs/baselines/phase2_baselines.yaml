@@ -1,0 +1,15 @@
+project_name: sap-thesis-project
+experiment_name: phase2_baselines
+seed: 20260301
+output_dir: outputs
+
+pack: StandardPack
+max_turn: 25
+episodes_per_baseline: 20
+max_steps_per_episode: 256
+evaluation_policy: heuristic
+
+baselines:
+  - no_generation
+  - random_generation
+  - heuristic_generation

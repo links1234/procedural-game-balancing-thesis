@@ -1,0 +1,49 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+/.venv*/
+/venv*/
+/env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+htmlcov/
+
+# Build and packaging outputs
+build/
+dist/
+*.egg-info/
+*.whl
+*.tar.gz
+
+# Generated experiment outputs
+outputs/
+*.log
+
+# Model and serialized data files
+*.ckpt
+*.onnx
+*.pkl
+*.pt
+*.pth
+
+# AI-assistant context exports and scratch research
+*context_bundle*
+*context_snapshot*
+*llm_context*
+tmp_research/
+
+# Editor and operating-system files
+*.swp
+*.tmp
+*.Zone.Identifier
+.DS_Store

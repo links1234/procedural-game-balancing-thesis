@@ -1,0 +1,4 @@
+project_name: sap-thesis-project
+experiment_name: phase0_smoke
+seed: 12345
+output_dir: outputs

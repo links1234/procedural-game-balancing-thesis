@@ -1,0 +1,5 @@
+condition,short_label,final_objective,fairness_score,diversity_retention,stability_score,source
+Heuristic baseline,Heuristic,0.5293968134136082,0.34792284866468837,0.9646367848785717,0.6385787361954045,Matched protocol baseline comparison
+Generator best safe,Generator,0.5427324871834691,0.35805470018476,1.0116182848218593,0.6394983353630658,Final matrix generator run
+One-shot selected,One-shot,0.5587233159222974,0.4167899333743911,0.9425528591348586,0.6006939203534555,Final matrix one-shot arm
+Iterative step 1,Iterative,0.5531013597803924,0.3463649851632048,0.9839865385755455,0.7424253048368025,Final matrix iterative step 1
